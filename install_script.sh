@@ -29,4 +29,7 @@ sudo apt update
 #Download the deb packpage on the website: https://code.visualstudio.com/docs/setup/linux
 sudo dpkg -i ~/Downloads/code*.deb
 
+#Install pip
+sudo apt install python3-pip
+
 
