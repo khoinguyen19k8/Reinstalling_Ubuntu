@@ -32,4 +32,12 @@ sudo dpkg -i ~/Downloads/code*.deb
 #Install pip
 sudo apt install python3-pip
 
+#Install R
+echo "deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/" | sudo tee -a /etc/apt/sources.list
+sudo apt-get update
+sudo apt-get install r-base
+
+#Install RStudio
+#Download the deb file on the website
+
 
