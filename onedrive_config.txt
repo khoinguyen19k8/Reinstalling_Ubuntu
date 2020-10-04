@@ -1,0 +1,4 @@
+#Create config folder and file
+mkdir -p ~/.config/onedrive
+cp ./config ~/.config/onedrive/config
+nano ~/.config/onedrive/config
